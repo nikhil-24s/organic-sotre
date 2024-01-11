@@ -1,0 +1,22 @@
+.info{
+    background-color: #111111;
+    color: white;
+    padding: 50px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.info-card{
+    background-color:#333333b0;
+    width: fit-content;
+    padding:40px;
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.c-left>i{
+    color: #8BC34A;
+    font-size: 2rem;
+}

@@ -1,0 +1,10 @@
+.brands{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.brands>p{
+    font-size: 1.3rem;
+    font-weight: 800;
+}

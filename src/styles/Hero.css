@@ -1,0 +1,33 @@
+.hero{
+    height: 100vh;
+    display: flex;
+    width: 100%;
+}
+.hero-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.hero-right{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0 50px;
+    width: 50%;
+}
+.hero-right>img{
+    width: 80px;
+}
+.shop-btn{
+    background-color: rgb(115, 173, 48);
+    width: fit-content;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+.shop-btn:hover{
+    background-color: #8BC34A;
+}

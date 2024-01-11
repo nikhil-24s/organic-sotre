@@ -1,0 +1,22 @@
+.item-card{
+    height: fit-content;
+    padding: 50px;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+.items{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+.items>img{
+    width: 250px;
+}
+.category{
+    opacity: .5;
+    font-weight: 200;
+}
